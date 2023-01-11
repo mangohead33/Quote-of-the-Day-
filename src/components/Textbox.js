@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
+import ShuffleQuoteButton from './ShuffleQuoteButton.js';
+import FavoritesButton from './FavoritesButton.js';
 
-function Textbox({quote}) {
+function Textbox({quote, shuffleQuote, favStatus, favoriteAQuote}) {
   return (
-  <div>{quote}</div>
+    <div>
+  <div>{quote[0]}</div>
+  <FavoritesButton favStatus={favStatus} favoriteAQuote={favoriteAQuote}/>
+  <ShuffleQuoteButton shuffleQuote={shuffleQuote}/>
+  </div>
   );
 }
-export default Textbox
+export default Textbox;
