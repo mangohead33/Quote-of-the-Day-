@@ -1,0 +1,50 @@
+html {
+  background-color: #5FC6DD;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #76CAD4;
+  text-shadow: 3px 3px 3px black;
+  font-size: 60px;
+  text-align: center;
+}
+
+body {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #EBDFA7;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
+
+.quote-style {
+  padding: 10px auto;
+  margin: auto;
+  text-align: center;
+  width: 450px;
+  color: Black;
+  font-size: 30px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.button-container {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  border: none;
+  padding: 10px auto;
+  width: 600px;
+}
+
+button {
+  background-color: #EBDFA7;
+  border: none;
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 40px;
+}
