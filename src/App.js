@@ -20,7 +20,6 @@ const App = () => {
   }, [quoteId])
 
   function adjustQuoteId() {
-    //setQuoteId(Math.floor(Math.random() * quotes.length));
     setQuoteId(() => Math.floor(Math.random() * quotes.length));
   }
 
