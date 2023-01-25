@@ -1,50 +1,57 @@
 html {
-  background-color: #5FC6DD;
+  background-color: rgb(255, 253, 252);
+}
+
+.app-container {
+  max-width: 80%;
+  min-height: 740px;
+  border-radius: 20px;
+  box-shadow: -10px 5px 5px grey;
+  margin: auto;
+  background-color: rgb(240, 234, 214);
+  padding: 20px 20px 20px 20px;
+  border: 3px solid black;
 }
 
 h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #76CAD4;
-  text-shadow: 3px 3px 3px black;
-  font-size: 60px;
-  text-align: center;
-}
-
-body {
-  width: 600px;
-  height: 600px;
   margin: 0 auto;
-  background-color: #EBDFA7;
-  padding: 20px 20px 20px 20px;
-  border: 5px solid black;
+  padding-bottom: 5px;
+  color: black;
+  font-size: 50px;
+  font-family: cursive;
+  text-align: center;
+  border-bottom:1px solid black;
 }
 
-.quote-style {
-  padding: 10px auto;
-  margin: auto;
+.quote-box {
+  margin: 0 auto;
+  min-height: 125px;
+  padding: 4% 5% 3% 5%;
   text-align: center;
-  width: 450px;
-  color: Black;
-  font-size: 30px;
-  line-height: 2;
-  letter-spacing: 1px;
-  font-style: italic;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace ;
 }
 
-.button-container {
-  display: inline-block;
-  margin: auto;
-  text-align: center;
-  border: none;
-  padding: 10px auto;
-  width: 600px;
+.buttons-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
 
 button {
-  background-color: #EBDFA7;
+  border: none;
+  background-color: rgb(240, 234, 214);
+  font-size: 30px;
+}
+
+/*
+
+button {
+  background-color: grey;
   border: none;
   padding: 30px 30px;
   text-align: center;
   font-size: 40px;
-}
+} */

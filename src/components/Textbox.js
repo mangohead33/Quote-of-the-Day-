@@ -6,8 +6,8 @@ import './styles/style.css'
 function Textbox({quote, shuffleQuote, favStatus, favoriteAQuote}) {
   return (
     <>
-  <div class="quote-style">{quote[0]}</div>
-  <div class="button-container">
+  <div className="quote-box">{quote[0]}</div>
+  <div className="buttons-container">
   <FavoritesButton favStatus={favStatus} favoriteAQuote={favoriteAQuote}/>
   <ShuffleQuoteButton shuffleQuote={shuffleQuote}/>
   </div>
